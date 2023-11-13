@@ -22,7 +22,7 @@ export class EmpleadosService {
 
   getEmpleadoById(id): string {
     for (let i = 0; i < this.empleados.length; i++) {
-      if (this.empleados[i].idh == id) {
+      if (this.empleados[i].id == id) {
         return this.empleados[i];
       }
     }
